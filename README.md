@@ -1,1 +1,1 @@
-# A02
+Este proyecto es un ejercicio practico de una SPA con Bootstrap para un curso de Openwebinars centrado en los componentes
