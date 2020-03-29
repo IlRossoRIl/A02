@@ -1,11 +1,36 @@
 /*Import fonts froms fonts.css*/
 
 @import url(./fonts.css);
-
+@import url(./partials/_variables.css);
 /* Inicio de la barra de navegación*/
 
-.header_area.main_menu.navbar.navbar-brand{
-  
+.header_area .main-menu .navbar .navbar-brand{
+  padding:0 1rem 0 1rem;
+}
+
+.header_area .main-menu .navbar{
+  padding:0rem 15rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+  padding:2rem;
+  font-family:"Quicksand";
+  font:normal 500 15px/2px;
+  background:var(--text_color)
+}
+
+.header_area .main-menu .navbar-nav .active a{
+  background:var(--gradient-color);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+  background:var(--gradient-color);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip: text;
 }
 
 /* Fin de la barra de navegación*/
