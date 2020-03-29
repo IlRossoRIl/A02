@@ -10,10 +10,10 @@ html,body{
   --primary-color2:#b0e0ff;
   --title-color:#000000;
   --text-color:#666666;
-  --border-color:#201f1f17;
+  --border-color:#0796f1;
   --gradient-color:linear-gradient(90deg,#0796f1 0%,#0795f1 100%);
-  --shadow-color: 0px 10px 30px #854fee);
-  --box-shadow:0px 10px 30px #0795f1);
-
+  --shadow-color: 0px 10px 30px #5b5b5b);
+  --box-shadow:0px 10px 30px #5b5b5b);
+  --gradient-color2:linear-gradient(90deg,#bee5ff 50%,#0796f1 100%);
 
 }
