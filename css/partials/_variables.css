@@ -13,5 +13,7 @@ html,body{
   --border-color:#201f1f17;
   --gradient-color:linear-gradient(90deg,#0795f1 0%,#0795f1 100%);
   --shadow-color: 0px 10px 30px #854fee);
-  --box-shadow:0px 10px 30px #854fee);
+  --box-shadow:0px 10px 30px #0795f1);
+
+
 }
