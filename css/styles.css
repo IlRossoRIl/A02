@@ -1,3 +1,11 @@
 /*Import fonts froms fonts.css*/
 
-@import url(./fonts.css);  
+@import url(./fonts.css);
+
+/* Inicio de la barra de navegación*/
+
+.header_area.main_menu.navbar.navbar-brand{
+  
+}
+
+/* Fin de la barra de navegación*/
