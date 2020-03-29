@@ -6,17 +6,18 @@
 
 /* Inicio de la barra de navegación*/
 .header_area .main-menu .navbar .navbar-brand{
-  padding:0 1rem 0 5rem;
+  padding:0 5rem 0 5rem;
 }
 
 .header_area .main-menu .navbar{
-  padding:0rem 15rem;
+  padding:0rem 20rem;
 }
 
 .header_area .main-menu .nav-item .nav-link{
   padding:1rem;
   font-family:"Quicksand";
   font:normal 500 15px/2px;
+  font-size: 18px;
   background:var(--text_color)
 }
 
@@ -63,3 +64,14 @@
 }
 
 /* Fin Area Banner*/
+/* Inicio zona sobre mi*/
+.site-main .about-main{
+  padding:8rem 5rem;
+
+}
+.site-main .about-main .about-title .paragraph>p{
+  padding: 0.4rem 0;
+}
+
+
+/* Fin zona sobre mi*/
