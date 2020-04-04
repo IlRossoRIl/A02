@@ -11,14 +11,15 @@
 
 .header_area .main-menu .navbar{
   padding:0rem 20rem;
+  filter: opacity(0.97);
 }
 
 .header_area .main-menu .nav-item .nav-link{
   padding:1rem;
   font-family:"Quicksand";
   font:normal 500 15px/2px;
-  font-size: 18px;
-  background:var(--text_color)
+  font-size: 16px;
+  background:var(--text_color);
 }
 
 .header_area .main-menu .navbar-nav .active a{
@@ -144,3 +145,26 @@
 }
 
 /* Fin Zona de Habilidades */
+.social a>i{
+ font-size: 20px;
+ padding:0.4rem;
+ color:whitesmoke;
+ filter: opacity(0.5);
+}
+
+.social .github>i:hover{
+  color:whitesmoke;
+  filter: brightness(1.5);
+}
+.social .instagram>i:hover{
+  color:#833ab4;
+  filter: brightness(1.5);
+}
+.social .linkedin>i:hover{
+  color:#2867b2;
+  filter: brightness(1.4);
+}
+.social .twitter>i:hover{
+  color:#1da1f2;
+  filter: brightness(1.2);
+}
