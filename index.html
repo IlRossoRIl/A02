@@ -17,7 +17,7 @@
 
     <!--  Responsive css file -->
       <link rel="stylesheet" href="./css/responsive.css">
-
+      <link rel="stylesheet" href="./css/hamburger.css">
       <!-- Material Design Bootstrap -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/css/mdb.min.css" rel="stylesheet">
 
@@ -27,17 +27,14 @@
     <header class="header_area">
       <div class="main-menu">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <div class="navbar-brand"><img class="img-fluid logo" src="./img/logo.svg" width="32" height="32" alt=""></div>
+          <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="animated-icon1"><span></span><span></span><span></span></div>
           </button>
-
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="mr-auto"></div>
-            <img src="./img/logo.svg" width="32" height="32" alt="">
             <ul class="navbar-nav mr-auto">
-
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" data-scroll href="#home">Inicio <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
@@ -47,7 +44,7 @@
                 <a class="nav-link" data-scroll href="#skills">Habilidades</a>
               </li>
             </ul>
-            <div class="social text-center">
+            <div class="social mr-auto">
               <a href="https://github.com/IlRossoRIl" target="_blank" class="github"><i class="fab fa-github"></i></a>
               <a href="https://www.instagram.com/rosspaz_/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
               <a href="https://www.linkedin.com/in/rosendo-paz-mari%C3%B1as-525053b2" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i></a>
@@ -206,6 +203,21 @@
       offset:95,
       speed:900
     });
+$(document).ready(function () {
+
+        $('.first-button').on('click', function () {
+
+        $('.animated-icon1').toggleClass('open');
+        });
+        $('.second-button').on('click', function () {
+
+        $('.animated-icon2').toggleClass('open');
+          });
+        $('.third-button').on('click', function () {
+
+        $('.animated-icon3').toggleClass('open');
+        });
+      });
     </script>
   </body>
 </html>
