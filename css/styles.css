@@ -23,9 +23,8 @@
 }
 
 .header_area .main-menu .navbar-nav .active a{
-  background:#999999;
   -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
+  -webkit-text-fill-color:#c3c0c0;
   background-clip: text;
   margin-left: 5rem;
 }
@@ -33,14 +32,17 @@
 .header_area .main-menu .navbar-nav a{
   margin-left:1.5rem;
   margin-right:1.5rem;
-  color: #c3c3c3;
+  color: #f0f0f0;
+  filter: brightness(0.85);
 }
 
 .header_area .main-menu .navbar-nav a:hover{
-  background:whitesmoke;
   -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
+  -webkit-text-fill-color:whitesmoke;
   background-clip: text;
+  color:whitesmoke;
+  filter: brightness(5);
+
 }
 /* Fin de la barra de navegación*/
 /* Inicio Area Banner*/
@@ -152,7 +154,7 @@
 }
 
 .site-main .brand-area .experience-area .years-area h2>span{
-  font:normal 600 22px/30px "Quicksand";
+  font:normal 400 22px/30px "Quicksand";
 }
 
 /* Fin Zona de Habilidades */
@@ -160,7 +162,7 @@
  font-size: 20px;
  padding:1rem;
  color:whitesmoke;
- filter: opacity(0.4);
+ filter: opacity(0.5);
 }
 
 .social{
