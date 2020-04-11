@@ -38,16 +38,13 @@
             <ul class="navbar-nav mr-auto">
 
               <li class="nav-item active">
-                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                <a class="nav-link" data-scroll href="#home">Inicio <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sobre</a>
+                <a class="nav-link" data-scroll href="#about-area">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Habilidades</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" data-scroll href="#skills">Habilidades</a>
               </li>
             </ul>
             <div class="social text-center">
@@ -66,7 +63,7 @@
     <!--Inicio del Area principal-->
     <main class="site-main">
       <!--Inicio del banner-->
-      <section class="site-banner">
+      <section id="home" class="site-banner">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 col-md-12 site-title">
@@ -76,7 +73,7 @@
               <div class="site-buttons">
                 <div class="d-flex flex-row flex-wrap">
                   <button class="btn button primary-button mr-4">Pincha Aqui</button>
-                  <button class="btn button secondary-button">Obtener CV</button>
+                  <a href='Curriculum.pdf' download='Curriculum.pdf'><button class="btn button secondary-button">Obtener CV</button></a>
                 </div>
               </div>
             </div>
@@ -90,7 +87,7 @@
       <!--Fin del banner-->
 
       <!-- Inicio de la sección sobre mi -->
-        <section class="about-area">
+        <section id="about-area" class="about-area">
           <div class="container-fluid">
             <div class="row">
               <div class="col-lg-6 col-md-12">
@@ -116,7 +113,7 @@
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                   </p>
                 </div>
-                <button class="btn button primary-button text-uppercase">Descargar CV</button>
+                <a href='Curriculum.pdf' download='Curriculum.pdf'><button class="btn button primary-button text-uppercase">Descargar CV</button></a>
               </div>
             </div>
           </div>
@@ -124,7 +121,7 @@
 
       <!-- Fin de la sección sobre mi -->
       <!-- Inicio de la seccion hailidades -->
-        <section class="brand-area">
+        <section id="skills" class="brand-area " >
           <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-6 col-lg-12 col-md-12">
@@ -201,6 +198,14 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/js/mdb.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/js/mdb.min.js"></script>
+    <!-- Get patch fixes within a minor version -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      offset:95,
+      speed:900
+    });
+    </script>
   </body>
 </html>

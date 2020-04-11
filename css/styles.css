@@ -71,6 +71,7 @@
 .site-main .site-banner .banner-image >img{
   padding:7rem 0;
   width: 90rem;
+  margin-bottom:6rem;
 }
 
 .site-main{
@@ -81,7 +82,8 @@
 /* Inicio zona sobre mi*/
 .site-main .about-main{
   padding:8rem 5rem;
-
+  margin-bottom:7rem;
+  margin-top:6rem;
 }
 .site-main .about-main .about-title .paragraph>p{
   padding: 0.4rem 0;
@@ -93,7 +95,8 @@
 /* Inicio Zona de Habilidades */
 .site-main .brand-area{
   padding: 5rem 20rem;
-  margin-bottom:5rem;
+  margin-bottom:7rem;
+  margin-top:7rem;
   margin-right:5rem;
 }
 
