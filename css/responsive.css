@@ -32,7 +32,7 @@
 
 
 /* if the viewport is equal to 340px or less than that */
-@media only screen and (max-width: 990px){
+@media only screen and (max-width: 1400px){
   .social
   {
       text-align: center;
@@ -41,7 +41,18 @@
       margin: 0;
       padding: 0;
   }
+  .site-main .site-banner{
+    margin-top:-5rem;
+  }
+  .site-main .skill-area{
+    margin-bottom:2rem;
+    margin-top:4rem;
+  }
 
+  .site-main .about-area{
+    margin-bottom:2rem;
+    margin-top:4rem;
+  }
     .site-main .about-area .about-title h2 > span{
         font-size: 31px;
         letter-spacing: 10px;

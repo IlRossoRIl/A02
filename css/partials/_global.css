@@ -1,5 +1,5 @@
 .title-text{
-  font:normal bold 50px/72px "Quicksand";
+  font:normal bold 50px/72px "Roboto";
 }
 
 .text-uppercase{
@@ -8,7 +8,7 @@
 
 .button{
   padding: 0.8rem 2.2rem;
-  font:normal 500 16px/20px "Quicksand";
+  font:normal 500 16px/20px "Roboto";
   position: relative;
   border:3px solid transparent;
   border-radius:4px;
@@ -53,6 +53,35 @@
 }
 
 p.para{
-  color:var(--text-color);
-  font:normal 500 16px/25px "Quicksand";
+  -moz-font-feature-settings: 'kern';
+  -moz-osx-font-smoothing: grayscale;
+  font-family:"Roboto";
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  color:#333;
+  font-style: normal;
+}
+.about-title>h3{
+  font-family:"Roboto";
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: -.009em;
+  color:#111;
+  text-align:left;
+  font-style: normal;
+  margin-top: -50px;
+}
+
+.about-title>h2{
+  -moz-font-feature-settings: 'kern';
+  -moz-osx-font-smoothing: grayscale;
+  font-family:"Roboto";
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: -.009em;
+  color:#cfcfcf;
+  text-align:left;
+  font-style: normal;
 }
