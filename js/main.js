@@ -59,7 +59,7 @@ $(document).ready(function () {
     origin: 'left'
   });
   sr.reveal('.carousel', {
-    delay: 5000,
+    delay: 4700,
     duration: 4000,
     distance: '600px',
     origin: 'right'
