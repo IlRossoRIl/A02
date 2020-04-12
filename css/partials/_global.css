@@ -63,20 +63,7 @@ p.para{
   color:#333;
   font-style: normal;
 }
-.about-title>h3{
-  font-family:"Roboto";
-  font-size: 45px;
-  font-weight: 600;
-  letter-spacing: -.009em;
-  color:#111;
-  text-align:left;
-  font-style: normal;
-  margin-top: -50px;
-}
-
-.about-title>h2{
-  -moz-font-feature-settings: 'kern';
-  -moz-osx-font-smoothing: grayscale;
+.about-title-claro{
   font-family:"Roboto";
   font-size: 45px;
   font-weight: 600;
@@ -84,4 +71,17 @@ p.para{
   color:#cfcfcf;
   text-align:left;
   font-style: normal;
+}
+
+.about-title-oscuro{
+  -moz-font-feature-settings: 'kern';
+  -moz-osx-font-smoothing: grayscale;
+  font-family:"Roboto";
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: -.009em;
+  color:#111;
+  text-align:left;
+  font-style: normal;
+  margin-top: -5px;
 }

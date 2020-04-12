@@ -1,55 +1,56 @@
 /*Import fonts froms fonts.css*/
-
 @import url(./fonts.css);
 @import url(./partials/_variables.css);
 @import url(./partials/_global.css);
 
 /* Inicio de la barra de navegación*/
-.header_area .main-menu .navbar .navbar-brand{
-  padding:0 5% 0 5%;
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 5% 0 5%;
 }
 
-.site-main{
+.site-main {
   margin-right: 12%;
 }
-.header_area .main-menu .navbar{
+
+.header_area .main-menu .navbar {
   filter: opacity(.95);
   text-align: center;
   align-items: center;
   align-content: center;
 }
 
-.header_area .main-menu .nav-item .nav-link{
-  padding:1rem;
-  font-family:"Roboto";
+.header_area .main-menu .nav-item .nav-link {
+  padding: 1rem;
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
-  background:var(--text_color);
+  background: var(--text_color);
   letter-spacing: 0.02em;
 }
 
-.header_area .main-menu .navbar-nav .active a{
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:#c3c0c0;
+.header_area .main-menu .navbar-nav .active a {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #c3c0c0;
   background-clip: text;
 }
 
-.header_area .main-menu .navbar-nav a{
-  margin-left:2.5rem;
-  margin-right:2.5rem;
+.header_area .main-menu .navbar-nav a {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
   color: #f0f0f0;
   filter: brightness(0.85);
 }
 
-.header_area .main-menu .navbar-nav a:hover{
-  color:whitesmoke;
+.header_area .main-menu .navbar-nav a:hover {
+  color: whitesmoke;
   filter: brightness(5);
 }
+
 /* Fin de la barra de navegación*/
 /* Inicio Area Banner*/
-.site-main .site-banner .site-title h3{
+.site-main .site-banner .site-title h3 {
   padding-top: 35%;
-  font-family:"Roboto";
+  font-family: "Roboto";
   font-size: 36px;
   line-height: 1.5;
   font-weight: 250;
@@ -57,17 +58,17 @@
   font-style: normal;
 }
 
-.site-main .site-banner .site-title h3:after{
-  content:"";
+.site-main .site-banner .site-title h3:after {
+  content: "";
   height: 2px;
-  width:18vw;
+  width: 18vw;
   display: inline-block;
   margin-left: 5%;
   transform: translateY(-10px);
 }
 
-.site-main .site-banner .site-title h1{
-  font-family:"Roboto";
+.site-main .site-banner .site-title h1 {
+  font-family: "Roboto";
   font-size: 75px;
   line-height: 1.5;
   font-weight: 450;
@@ -75,153 +76,171 @@
   font-style: normal;
 }
 
-.site-main .site-banner .site-title h4{
-  font-family:"Roboto";
+.site-main .site-banner .site-title h4 {
+  font-family: "Roboto";
   font-size: 24px;
   line-height: 1.5;
   font-weight: 600;
   letter-spacing: .009em;
   font-style: normal;
-  color:#333
+  color: #333
 }
 
-.title-about{
+.title-about {
   font-size: 1.5rem;
   font-weight: 500;
 }
 
-.site-main .site-banner .banner-image >img{
-  padding:7rem 0;
+.site-main .site-banner .banner-image>img {
+  padding: 7rem 0;
   width: 80rem;
-  margin-bottom:6rem;
+  margin-bottom: 6rem;
   text-align: left;
 }
 
-
-.site-main{
+.site-main {
   padding-left: 8%;
 }
 
 /* Fin Area Banner*/
 /* Inicio zona sobre mi*/
-.site-main .about-main{
-  padding:8rem 5rem;
-  margin-bottom:7rem;
-  margin-top:7rem;
+.site-main .about-main {
+  padding: 8rem 5rem;
+  margin-bottom: 7rem;
+  margin-top: 7rem;
 }
-.site-main .about-main .about-title .paragraph>p{
+
+.site-main .about-main .about-title .paragraph>p {
   padding: 0.4rem 0;
 }
 
-
 /* Fin zona sobre mi*/
-
 /* Inicio Zona de Habilidades */
-.site-main .skill-area{
-  margin-bottom:7rem;
-  margin-top:11rem;
+.site-main .skill-area {
+  margin-bottom: 10rem;
+  margin-top: 13rem;
 }
 
-.site-main .about-area{
-  margin-bottom:7rem;
-  margin-top:11rem;
+.site-main .about-area {
+  margin-bottom: 13rem;
+  margin-top: 11rem;
 }
 
-.site-main .site-banner{
-  margin-bottom:7rem;
-  margin-top:7rem;
+.site-main .site-banner {
+  margin-bottom: 7rem;
+  margin-top: 7rem;
 }
+
 /* Fin Zona de Habilidades */
-.social a>i{
- font-size: 20px;
- padding:1rem;
- color:whitesmoke;
- filter: opacity(0.5);
-}
-.navbar-brand{
-  margin-left: 15%;
-  padding-left:55%;
+.social a>i {
+  font-size: 20px;
+  padding: 1rem;
+  color: whitesmoke;
+  filter: opacity(0.5);
 }
 
-.social{
+.navbar-brand {
+  margin-left: 15%;
+  padding-left: 55%;
+}
+
+.social {
   margin-right: 25%;
-  padding-right:25%;
+  padding-right: 25%;
 }
-.social .github>i:hover{
-  color:whitesmoke;
+
+.social .github>i:hover {
+  color: whitesmoke;
   filter: brightness(1.5);
 }
-.social .instagram>i:hover{
-  color:#833ab4;
+
+.social .instagram>i:hover {
+  color: #833ab4;
   filter: brightness(1.5);
 }
-.social .linkedin>i:hover{
-  color:#2867b2;
+
+.social .linkedin>i:hover {
+  color: #2867b2;
   filter: brightness(1.4);
 }
-.social .twitter>i:hover{
-  color:#1da1f2;
+
+.social .twitter>i:hover {
+  color: #1da1f2;
   filter: brightness(1.2);
 }
 
-.site-main .skill-area .skill-title p{
+.site-main .skill-area .skill-title {
   padding: 1rem 7rem;
 }
 
-.site-main .skill-area .skill{
+.site-main .skill-area .skill {
   box-shadow: 10px 10px 10px #dedede;
   margin: 3rem 0rem;
 }
 
-.site-main .skill-area .skill .skill-img{
+.site-main .skill-area .skill .skill-img {
   padding: 2rem;
 }
 
-.site-main .skill-area .skill .about-skill{
+.site-main .skill-area .skill .about-skill {
   padding-top: 2rem;
 }
 
-.site-main .skill-area .skill .about-skill h4{
+.site-main .skill-area .skill .about-skill h4 {
   padding-top: 2rem;
-  font-family:"Roboto";
+  font-family: "Roboto";
   font-size: 24px;
   line-height: 1.5;
   font-weight: 600;
   letter-spacing: .009em;
   font-style: normal;
-  color:#333
+  color: #333
 }
 
-.site-main .skill-area .owl-carousel .owl-item{
+.site-main .skill-area .owl-carousel .owl-item {
   display: flex;
   justify-content: center;
   padding: 0 1.5rem;
-
 }
 
-.site-main .skill-area .owl-carousel .owl-dots .owl-dot.active span{
-  background:var(--primary-color);
+.site-main .skill-area .owl-carousel .owl-dots .owl-dot.active span {
+  background: var(--primary-color);
   width: 12px;
   height: 12px;
 }
 
-.title-h1{
+.title-h1 {
   margin-top: -5px;
   padding-bottom: 2rem;
-  font-family:"Roboto";
+  font-family: "Roboto";
   font-size: 45px;
   font-weight: 600;
   letter-spacing: -.009em;
-  color:#111;
+  color: #111;
 }
-.title-h1-claro{
+
+.title-h1-claro {
   margin-left: -17px;
   -moz-font-feature-settings: 'kern';
   -moz-osx-font-smoothing: grayscale;
-  font-family:"Roboto";
+  font-family: "Roboto";
   font-size: 45px;
   font-weight: 600;
   letter-spacing: -.009em;
-  color:#cfcfcf;
+  color: #cfcfcf;
   font-style: normal;
+}
+
+.para-2 {
+  padding: 0.4rem 0;
+  -moz-font-feature-settings: 'kern';
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto";
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  color: #333;
+  font-style: normal;
+  text-align: left;
 }

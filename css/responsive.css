@@ -42,7 +42,11 @@
       padding: 0;
   }
   .site-main .site-banner{
-    margin-top:-5rem;
+    margin-top:-1rem;
+  }
+
+  .site-main .skill-area .skill-title {
+    padding:0;
   }
   .site-main .skill-area{
     margin-bottom:2rem;
@@ -53,7 +57,7 @@
     margin-bottom:2rem;
     margin-top:4rem;
   }
-    .site-main .about-area .about-title h2 > span{
+    .site-main .about-area .about-title .about-title-claro .about-title-oscuro{
         font-size: 31px;
         letter-spacing: 10px;
     }
@@ -76,7 +80,7 @@
         font: normal 500 18px/40px var(--roboto);
     }
 
-    .site-main .about-area .about-title p{
+    .site-main .about-area .about-title .about-title-oscuro .about-title-claro{
         padding: 0%;
     }
 
